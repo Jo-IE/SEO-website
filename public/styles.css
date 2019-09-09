@@ -1,0 +1,129 @@
+:root {
+  --mainRed: #95190c;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-size: 1.4rem;
+}
+.text-title {
+  text-transform: uppercase;
+}
+
+.nav-red,
+.btn-red {
+  background: var(--mainRed);
+}
+.nav-link,
+.navbar-brand,
+.btn-red {
+  color: white;
+}
+.text-red {
+  color: var(--mainRed);
+}
+.hero {
+  background: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1972&q=80");
+  height: 100vh;
+}
+.carousel-inner > .item > img {
+  min-height: 300px;
+  max-height: 300px;
+  width: 100%;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner {
+  height: 100px;
+  background: #95190c;
+  filter: brightness(120%);
+  min-width: 100vw;
+  color: white;
+}
+.services-wrapper {
+  width: auto;
+  min-height: 400px;
+  padding: 25px;
+}
+
+.service-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.singleservice {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: #f3f3f3;
+  padding: 25px;
+  color: #b2b2b2;
+  font-family: avenir;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 5px solid skyblue;
+  border-radius: 10px;
+}
+
+.singleserviceb {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: #f3f3f3;
+  padding: 25px;
+  color: #b2b2b2;
+  font-family: avenir;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 5px solid #95190c;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .singleservice,
+  .singleserviceb {
+    width: 100%;
+  }
+}
+
+h2.servicetitle {
+  font-family: century gothic;
+  font-size: 16pt;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8c8c8c;
+}
+
+img.serviceicon {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+.about-title {
+  border-bottom: 1px solid #95190c;
+  float: left;
+  width: 100%;
+  padding-bottom: 3px;
+}
