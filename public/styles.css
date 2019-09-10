@@ -35,7 +35,12 @@ body {
   color: var(--mainRed);
   transition: all 1s linear;
 }
-
+.logo {
+  height: 70px;
+}
+.logo-main {
+  height: 100px;
+}
 .hero {
   background: url("https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=976&q=80");
   height: 100vh;
