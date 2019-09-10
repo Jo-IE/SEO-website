@@ -3,28 +3,49 @@
 }
 
 body {
-  font-family: "Lora", serif;
+  font-family: avenir;
   font-size: 1.4rem;
 }
 .text-title {
   text-transform: uppercase;
 }
-
 .nav-red,
 .btn-red {
   background: var(--mainRed);
 }
-.nav-link,
-.navbar-brand,
+.nav-white {
+  background: white;
+}
+
 .btn-red {
   color: white;
 }
-.text-red {
-  color: var(--mainRed);
+
+.nav-link:hover {
+  color: #95190c;
+  opacity: 0.6;
 }
+.btn-red:hover {
+  color: var(--mainRed);
+  background: transparent;
+  border: 2px solid var(--mainRed);
+}
+.text-red,
+.nav-link {
+  color: var(--mainRed);
+  transition: all 1s linear;
+}
+
 .hero {
-  background: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1972&q=80");
+  background: url("https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=976&q=80");
   height: 100vh;
+}
+.hero-text {
+  transition: all 1s ease-out;
+  margin-top: 30vh;
+}
+.hero-text:hover {
+  transform: scale(1.1);
 }
 .carousel-inner > .item > img {
   min-height: 300px;
@@ -122,7 +143,7 @@ img.serviceicon {
   opacity: 0.5;
 }
 .about-title {
-  border-bottom: 1px solid #95190c;
+  border-bottom: 5px solid #95190c;
   float: left;
   width: 100%;
   padding-bottom: 3px;
