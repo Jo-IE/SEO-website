@@ -12,28 +12,40 @@ body {
 .nav-red,
 .btn-red {
   background: var(--mainRed);
+  color: white;
 }
 .nav-white {
   background: white;
 }
 
-.btn-red {
+.btn-white {
+  background: white;
+  color: var(--mainRed);
+}
+.text-white {
   color: white;
 }
-
+.btn-white:hover {
+  color: var(--mainRed);
+  background: transparent;
+  border: 2px solid var(--mainRed);
+}
 .nav-link:hover {
   color: #95190c;
   opacity: 0.6;
 }
 .btn-red:hover {
-  color: var(--mainRed);
+  color: white;
   background: transparent;
-  border: 2px solid var(--mainRed);
+  border: 2px solid white;
 }
 .text-red,
 .nav-link {
   color: var(--mainRed);
   transition: all 1s linear;
+}
+.hero-text {
+  line-height: 4rem;
 }
 .logo {
   height: 70px;
@@ -42,16 +54,10 @@ body {
   height: 100px;
 }
 .hero {
-  background: url("https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=976&q=80");
+  background: url("https://images.unsplash.com/photo-1535868463750-c78d9543614f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80");
   height: 100vh;
 }
-.hero-text {
-  transition: all 1s ease-out;
-  margin-top: 30vh;
-}
-.hero-text:hover {
-  transform: scale(1.1);
-}
+
 .carousel-inner > .item > img {
   min-height: 300px;
   max-height: 300px;
@@ -152,4 +158,9 @@ img.serviceicon {
   float: left;
   width: 100%;
   padding-bottom: 3px;
+}
+
+.contact-div {
+  background: url("https://images.unsplash.com/photo-1535868463750-c78d9543614f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80");
+  color: white;
 }
